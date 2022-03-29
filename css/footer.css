@@ -1,0 +1,134 @@
+.footer {
+  background-color: #1E4776;
+  width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 60px;
+}
+.footer .connect-container {
+  text-align: center;
+}
+.footer .connect-container .container-footer-connect-me {
+  margin-bottom: 50px;
+}
+.footer .connect-container .container-footer-connect-me .connect-button {
+  border: solid 2px white;
+  border-radius: 50px;
+  height: 50px;
+  background: #1E4776;
+  font-family: Montserrat;
+  font-weight: 700;
+  color: white;
+  font-size: 16px;
+  padding: 15px 25px 15px 35px;
+  margin-top: 40px;
+}
+.footer .connect-container .container-footer-connect-me .connect-button:hover {
+  color: #7E9EC9;
+  border-color: black;
+}
+.footer .connect-container .container-footer-connect-me .connect-link {
+  display: block;
+  width: 290px;
+  padding: 15px;
+  color: #7E9EC9;
+  text-decoration: none;
+  font-family: Montserrat;
+  font-size: 14px;
+}
+.footer .connect-container .container-footer-connect-me .connect-link p {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.footer .connect-container .container-footer-connect-me .connect-link:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+.footer .connect-container .container-footer-social-links .social-title {
+  display: block;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.footer .connect-container .container-footer-social-links .instagram-use {
+  width: 26px;
+  height: 27px;
+  fill: #fff;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.footer .connect-container .container-footer-social-links .instagram-use:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.footer .connect-container .container-footer-social-links .icon-facebook {
+  fill: white;
+  width: 25px;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.footer .connect-container .container-footer-social-links .icon-facebook:hover {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+.footer .connect-container .container-footer-social-links .github {
+  display: inline-block;
+  width: 30px;
+  height: 35px;
+  fill: #fff;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.footer .connect-container .container-footer-social-links .github:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.footer .connect-container .container-footer-social-links .linkid {
+  width: 30px;
+  height: 30px;
+  fill: white;
+}
+.footer .connect-container .container-footer-social-links .linkid:hover {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+.footer .connect-container .container-footer-social-links ul {
+  margin: 0;
+  padding: 0;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.footer .connect-container .container-footer-social-links ul li {
+  list-style: none;
+  margin: 0;
+}
+.footer .connect-container .wraper-footer-social {
+  margin-top: 50px;
+  text-align: center;
+}
+.footer .connect-container .wraper-footer-social span {
+  color: #7e9ec9;
+  width: 100%;
+  display: block;
+}
+.footer .connect-container .wraper-footer-social .indefine {
+  font-size: 18px;
+  font-weight: bold;
+}
+.footer .connect-container .wraper-footer-social .skils {
+  font-size: 18px;
+}/*# sourceMappingURL=footer.css.map */

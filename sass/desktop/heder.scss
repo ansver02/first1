@@ -1,0 +1,39 @@
+
+//     .header{
+//         .container {
+//  @media screen and(min-width:1000px){
+//             width: 1440px;
+//             height: 800px;
+//             padding-top: 330px;
+//             background-image: url(../image/desktop/jpg/main_bg.jpg); 
+//                                      }
+
+//                          }      
+
+//             }
+//$desktop-brake:1000px;
+
+@media screen and(min-width:$desktop-brake) {
+    .header{
+        .container{
+            width: $desktop-design-width;
+            height: 800px;
+            padding-top: 330px;
+            background-image: url(../image/desktop/jpg/main_bg.jpg);  
+            h1{                
+                    font-size: 54px;
+                    width: 580px;
+
+                }       
+        }
+        .my-works{            
+                left: 700px;            
+        }
+        .my-skills{
+            li{
+                font-size: 16px;
+            }
+            
+        }
+    }
+}

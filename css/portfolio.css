@@ -1,0 +1,45 @@
+.portfolio-container {
+  display: none;
+  width: 320px;
+  margin-right: auto;
+  margin-left: auto;
+  min-height: 600px;
+  top: 100%;
+}
+.portfolio-container.is-open {
+  display: block;
+}
+.portfolio-container h2 {
+  margin: 0;
+  margin-top: 40px;
+  text-align: center;
+  font-family: monserrat;
+  font-size: 32px;
+  font-weight: bold;
+}
+.portfolio-container .my-works-list {
+  display: block;
+  background-color: #F2F5F9;
+  padding: 15px;
+}
+.portfolio-container .my-works-list li {
+  list-style: none;
+  background-color: #fff;
+  text-align: center;
+  padding: 15px;
+  margin-bottom: 30px;
+}
+.portfolio-container .my-works-list li span {
+  display: block;
+}
+.portfolio-container .my-works-list li .exemple-title {
+  font-weight: 600;
+  font-family: Montserrat;
+  margin-top: 10px;
+  font-size: 18px;
+}
+.portfolio-container .my-works-list li .exemple-work {
+  font-family: Montserrat;
+  font-size: 14px;
+  margin-top: 10px;
+}/*# sourceMappingURL=portfolio.css.map */

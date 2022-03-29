@@ -1,0 +1,82 @@
+.header{ 
+    margin-left: auto;
+    margin-right: auto;
+ 
+       .portfolio-icon{
+           width: 48px;
+           height: 48px;
+       }  
+ 
+    .container{ 
+        position: relative;
+        box-sizing: border-box;
+        padding-top: 100px;  
+        -webkit-box-pack: center;   
+
+        margin-left: auto;
+        margin-right: auto;
+        width: 320px;
+        height: 360px;
+        background-image: url(../image/jpg/main_bg_image.jpg);
+
+        h1{
+            text-align: center;
+            margin: 0;    
+             color: #FFFFFF;
+            font: bold;
+            font-size: 32px;
+            font-family: 'Montserrat';
+            margin-left: auto;
+            margin-right: auto;
+            width: 280px;
+           padding-left: 20px;
+           padding-right: 20px;
+
+  
+        }
+
+        
+        
+    }
+
+    .my-skills{
+        padding: 0;
+
+        display: block;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 280px;
+
+        & li{
+            width: 280px;
+            font-family: 'Montserrat';
+            list-style: none;
+            color: #FFFFFF;
+            text-align: center;
+            font-weight: 700;
+            font-size: 14px;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+        }
+    }
+    .my-works{
+        
+        position: absolute;
+        top: calc(100% - 48px);
+
+        height: 48px;
+        width: 48px;
+        left: 136px;
+        background-color: transparent;
+        border: none;
+        transition: all 0.5s;
+        &.open{
+            transform: rotate(180deg);
+            transition: all 0.5s;
+            
+        }
+       
+    }
+
+}

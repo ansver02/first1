@@ -1,0 +1,19 @@
+@media screen and (min-width: 1000px) {
+  .header .container {
+    width: 1440px;
+    height: 800px;
+    padding-top: 330px;
+    background-image: url(../image/desktop/jpg/main_bg.jpg);
+  }
+}
+@media screen and (min-width: 1000px) and (min-width: 1000px) {
+  .header .container h1 {
+    font-size: 54px;
+    width: 580px;
+  }
+}
+@media screen and (min-width: 1000px) and (min-width: 1000px) {
+  .header .my-works {
+    left: 700px;
+  }
+}/*# sourceMappingURL=heder.css.map */
